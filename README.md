@@ -105,11 +105,11 @@ Loaded the data and inspected it by viewing the columns the dimensionality the d
 #### NLP Text Cleaning
 We clean the text data by performing the following steps:
 
-    - Converts the text to lowercase to standardize it.
-    - Tokenizes the text using regex to split it into words.
-    - Removes stopwords and non-alphabetic words.
-    -Lemmatizes each word to reduce it to its base form.
-    - The cleaned text is stored in a new column, cleaned_tweet, for further analysis.
+- Converts the text to lowercase to standardize it.
+- Tokenizes the text using regex to split it into words.
+- Removes stopwords and non-alphabetic words.
+- Lemmatizes each word to reduce it to its base form.
+- The cleaned text is stored in a new column, cleaned_tweet, for further analysis.
 
 
 ## Exploratory Data Analysis(EDA)
