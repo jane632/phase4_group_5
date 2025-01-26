@@ -26,8 +26,8 @@ the model will classify tweets as positive, negative, or neutral. Insights will 
 
 ## Metrics of Success
 
-- Accuracy: Achieve at least X% accuracy, reflecting the model's overall reliability in correctly classifying sentiments across all categories
-- Precision: Attain a precision of Y%, ensuring that when the model identifies tweets as positive or negative, the predictions are consistently accurate.
+- Accuracy: Achieve at least 70% accuracy, reflecting the model's overall reliability in correctly classifying sentiments across all categories
+- Precision: Attain a precision of 65%, ensuring that when the model identifies tweets as positive or negative, the predictions are consistently accurate.
 - Recall: Ensure the model catches as many actual negative tweets as possible, minimizing the chances of missing important negative feedback.
 - F1 Score: The F1 score shows how well the model balances being accurate (precision) and not missing important feedback (recall). A higher 
 score means the model is good at correctly identifying sentiments while catching as many relevant tweets as possible.
@@ -49,52 +49,6 @@ about the sentiment toward a brand or product.
 
 
 ### Imported the relevant libraries 
-
--Standard libraries-
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
--For text preprocessing-
-import regex as re
-import string
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-
--Machine learning libraries-
-from sklearn.preprocessing import LabelBinarizer
-from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
-from sklearn.model_selection import (
-    GridSearchCV, 
-    StratifiedKFold, 
-    cross_val_score, 
-    train_test_split
-)
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-from sklearn.pipeline import Pipeline
-
- -Deep learning libraries-
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout
-from tensorflow.keras.utils import to_categorical
-from scikeras.wrappers import KerasClassifier
-
--Visualization-
-from wordcloud import WordCloud
-from textblob import TextBlob
-
--NLTK downloads-
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('stopwords')
 
 Loaded the data and inspected it by viewing the columns the dimensionality the datatypes
 
