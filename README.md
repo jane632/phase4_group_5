@@ -1,10 +1,10 @@
 # phase4_group_5
 
-# Apple_Google sentiment Analysis
+# Apple_Google sentimental Analysis
 ### Project Overview
 Group 5 aims to develop an ML model for sentiment analysis of tweets about Apple and Google products. Using advanced NLP techniques, 
-the model will classify tweets as positive, negative, or neutral. Insights will empower stakeholders—Product Management, Marketing, Customer Experience,
- Business Intelligence, and Leadership Teams—to make data-driven decisions, improve marketing, enhance customer satisfaction, and drive 
+the model will classify tweets as positive, negative, or neutral. Insights will empower stakeholders, Product Management, Marketing, Customer Experience,
+ Business Intelligence, and Leadership Teams, to make data-driven decisions, improve marketing, enhance customer satisfaction, and drive 
  innovation.
 
  ## Business Understanding
